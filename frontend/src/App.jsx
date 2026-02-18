@@ -191,7 +191,8 @@ function App() {
   const isDisabled = state === 'pending' || isSubmittingRef.current;
 
   return (
-    <div className="app">
+    <>
+       <div className="app">
       <div className="card">
         <h1>Eventually Consistent Form</h1>
         <p className="subtitle">Submit your information</p>
@@ -255,7 +256,11 @@ function App() {
       <h1>I love prachu</h1>
       <h2>alwasy</h2>
       <h3>Chatting</h3>
+
+
     </div>
+  </>
+  
   );
 }
 
